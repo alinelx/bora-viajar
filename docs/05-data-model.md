@@ -13,7 +13,7 @@
 - createdAt
 - updatedAt
 
-## Recommendation
+## Recommendation:
 - id
 - category
 - title
@@ -22,12 +22,12 @@
 - tags
 - status (liked, disliked, maybe, unselected)
 
-## ItineraryDay
+## ItineraryDay:
 - dayNumber
 - title
 - options
 
-## Option
+## Option:
 - id
 - category
 - title
