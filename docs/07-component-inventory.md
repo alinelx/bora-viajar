@@ -1,43 +1,111 @@
-# Layout
-- NavBar
-- AppLayout
-- PageHeader
+# BoraViajar – Component Inventory
 
-# Landing
-- HeroSection
-- CTAButton
-- FeatureCard
+## Layout Components
 
-# Form
-- Stepper
-- TripForm
-- DestinationInput
-- DateInput
-- DurationInput
-- BudgetSelector
-- TransportSelector
-- InterestsSelector
+* AppLayout
+* AuthlessLayout
+* PageContainer
+* PageHeader
+* SectionWrapper
+* Navbar
+* Footer
 
-# Recommendations
-- RecommendationCard
-- RecommendationDeck
-- SelectionSummary
-- FilterTabs
-- GenerateMoreButton
+---
 
-# Itinerary
-- TripSummaryCard
-- DayCard
-- OptionCard
-- EditOptionCard
-- AddOptionCard
-- DeleteOptionCard
+## Primitive UI Components
 
-# Saved Trips
-- SavedTripCard
-- EmptyTripsState
+* Button
+* IconButton
+* Input
+* TextArea
+* Select
+* MultiSelect
+* Checkbox
+* RadioCard
+* Badge
+* Pill
+* Tooltip
+* Modal
+* Drawer
+* Divider
+* ProgressBar
+* Stepper
 
-# States
-- LoadingState
-- ErrorState
-- EmptyState
+---
+
+## Feedback / State Components
+
+* LoadingState
+* ErrorState
+* EmptyState
+* SuccessState
+* ToastNotification
+* ConfirmationModal
+
+---
+
+## Form Components
+
+* TripSetupForm
+* DestinationInput
+* DateRangeInput
+* DurationInput
+* BudgetSelector
+* MobilityPreferenceSelector
+* InterestsSelector
+* PreferenceOverrideSelector
+
+---
+
+## Recommendation Flow Components
+
+* RecommendationDeck
+* RecommendationCard
+* RecommendationStack
+* SwipeActionBar
+* RecommendationSummary
+* GenerateMoreButton
+* RefreshLimitIndicator
+
+---
+
+## Itinerary Components
+
+* TripSummaryCard
+* ItineraryOverview
+* DayCard
+* ActivityCard
+* EditActivityModal
+* AddActivityModal
+* DeleteActivityModal
+* ReorderDayControl
+* BudgetOverviewCard
+
+---
+
+## Saved Trips Components
+
+* SavedTripsGrid
+* SavedTripCard
+* DuplicateTripModal
+* DeleteTripModal
+
+---
+
+## Composite Sections
+
+* HeroSection
+* FeatureSection
+* CTASection
+* ProblemStatementSection
+* HowItWorksSection
+
+---
+
+## Future / Out of MVP
+
+* AuthModal
+* UserProfileDropdown
+* CollaborativeInviteModal
+* MapView
+* BookingWidget
