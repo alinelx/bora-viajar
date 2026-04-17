@@ -24,6 +24,8 @@ export const interestOptions = [
   "História",
   "Praia",
   "Natureza",
+  "Arquitetura",
+  "Religião",
   "Compras",
   "Vida noturna",
   "Eventos locais",
