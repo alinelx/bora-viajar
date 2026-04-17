@@ -78,6 +78,10 @@ export default function Plan() {
       newErrors.interests = "Selecione pelo menos um interesse.";
     }
 
+    if (tripSetup.interests.length > 10) {
+      newErrors.interests = "Selecione no máximo 10 interesses.";
+    }
+
     setErrors(newErrors);
 
     // retorna true se não houver erros
