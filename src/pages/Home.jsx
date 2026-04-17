@@ -1,12 +1,31 @@
 import PageContainer from "../components/layout/PageContainer";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 
+import HeroSection from "../components/home/HeroSection";
+import ProblemSection from "../components/home/ProblemSection";
+import HowItWorksSection from "../components/home/HowItWorksSection";
+import CTASection from "../components/home/CTASection";
+
+// página inicial do produto
 export default function Home() {
   return (
-    <PageContainer>
-      <h1 className="text-4xl font-bold text-slate-900">BoraViajar</h1>
-      <p className="mt-4 max-w-2xl text-slate-600">
-        Planeje viagens com ajuda de IA e preferências personalizadas.
-      </p>
-    </PageContainer>
+    <div className="min-h-screen bg-white">
+      {/* barra superior */}
+      <Navbar />
+
+      {/* conteúdo principal */}
+      <main>
+        <PageContainer>
+          <HeroSection />
+          <ProblemSection />
+          <HowItWorksSection />
+          <CTASection />
+        </PageContainer>
+      </main>
+
+      {/* rodapé */}
+      <Footer />
+    </div>
   );
 }
