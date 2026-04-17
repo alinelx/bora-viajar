@@ -74,6 +74,10 @@ export default function Plan() {
       newErrors.endDate = "Escolha uma data de fim.";
     }
 
+    if (tripSetup.endDate < tripSetup.startDate) {
+      newErrors.endDate = "A data de fim deve ser posterior à data de início.";
+    }
+
     if (tripSetup.interests.length === 0) {
       newErrors.interests = "Selecione pelo menos um interesse.";
     }
